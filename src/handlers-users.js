@@ -1,4 +1,4 @@
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const Joi = require('@hapi/joi');
 const { Users, insertUser, isUsernameExist } = require('../models/users');
 
